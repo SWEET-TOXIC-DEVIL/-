@@ -15,13 +15,13 @@ logging.basicConfig(level=logging.INFO)
 
 # -------------------------------------------------------------------------------------
 
-BOT_USERNAME = os.environ.get("BOT_USERNAME","ModularCopyRightSaverbot")
+BOT_USERNAME = os.environ.get("BOT_USERNAME","SweetToxicCopyRightSaverBot")
 
-OWNER_ID = "6379841493"
+OWNER_ID = "6656608288"
 # -------------------------------------------------------------------------------------
 
-API_ID = "6435225" # 
-API_HASH = "4e984ea35f854762dcde906dce426c2d"
+API_ID = "20563951" # 
+API_HASH = "91a46c36f5bc745fc45ce4de8b51292d"
 BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
 
 # --------------------------------------------------------------------------------------
@@ -45,16 +45,16 @@ start_txt = """<b> 🤖  𝗠𝗢𝗗𝗨𝗟𝗔𝗥 𝗖𝗢𝗣𝗬𝗥𝗜�
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("𝖲𝖴𝖬𝖬𝖮𝖭 𝖬𝖤", url=f"https://t.me/ModularCopyRightSaverbot?startgroup=true")
+          InlineKeyboardButton("𝖲𝖴𝖬𝖬𝖮𝖭 𝖬𝖤", url=f"https://t.me/SweetToxicCopyRightSaverBot?startgroup=true")
         ],
         [
-          InlineKeyboardButton("𝖴𝖯𝖣𝖠𝖳𝖤", url=f"https://t.me/ModularCopyrights")
+          InlineKeyboardButton("𝖴𝖯𝖣𝖠𝖳𝖤", url=f"https://t.me/SweetToxicHeroku_CC")
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/538a4cab76bdf088cde4f.jpg",
+        photo="https://telegra.ph/file/d4ec7b85c773aba76d601.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
@@ -63,7 +63,7 @@ async def start(_, msg):
 gd_buttons = [              
         [
             InlineKeyboardButton("𝖣𝖤𝖵", user_id=OWNER_ID),
-            InlineKeyboardButton("𝖴𝖯𝖣𝖠𝖳𝖤𝖲", url="https://t.me/ModularCopyrights"),    
+            InlineKeyboardButton("𝖴𝖯𝖣𝖠𝖳𝖤𝖲", url="https://t.me/SweetToxicHeroku_CC"),    
         ]
         ]
 
@@ -172,7 +172,7 @@ async def keep_reaction_message(client, message: Message):
 
 async def delete_pdf_files(client, message):
     if message.document and message.document.mime_type == "application/pdf":
-        warning_message = f"@{message.from_user.username} ᴍᴀᴀ ᴍᴀᴛ ᴄʜᴜᴅᴀ ᴘᴅғ ʙʜᴇᴊ ᴋᴇ,\n ʙʜᴏsᴀᴅɪᴋᴇ ᴄᴏᴘʏʀɪɢʜᴛ ʟᴀɢʏᴇɢᴀ \n\n ᴅᴇʟᴇᴛᴇ ᴋᴀʀ ᴅɪʏᴀ ᴍᴀᴅᴀʀᴄʜᴏᴅ.\n\n ᴀʙ @iam_daxx ʙʜᴀɪ ᴋᴇ ᴅᴍ ᴍᴇ ᴀᴘɴɪ ᴍᴜᴍᴍʏ ᴋᴏ ʙʜᴇᴊ ᴅᴇ 🍌🍌🍌."
+        warning_message = f"@{message.from_user.username} ᴍᴀᴀ ᴍᴀᴛ ᴄʜᴜᴅᴀ ᴘᴅғ ʙʜᴇᴊ ᴋᴇ,\n ʙʜᴏsᴀᴅɪᴋᴇ ᴄᴏᴘʏʀɪɢʜᴛ ʟᴀɢʏᴇɢᴀ \n\n ᴅᴇʟᴇᴛᴇ ᴋᴀʀ ᴅɪʏᴀ ᴍᴀᴅᴀʀᴄʜᴏᴅ.\n\n ᴀʙ @WereWolfDemon ʙʜᴀɪ ᴋᴇ ᴅᴍ ᴍᴇ ᴀᴘɴɪ ᴍᴜᴍᴍʏ ᴋᴏ ʙʜᴇᴊ ᴅᴇ 🍌🍌🍌."
         await message.reply_text(warning_message)
         await message.delete()
     else:  
@@ -184,5 +184,5 @@ async def message_handler(client, message):
 
 # -----------------------------------------------------------------------------------
 
-print(f"""╔═════❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱════❍⊱❁۪۪║┏━━━━━━➣║┣⪼ ᴏᴡɴᴇʀ :- @DaxxSir3 ║┣⪼ ᴘᴀʀᴛ ᴏғ :- @ALLTYPECC║┗━━━━━━➣║╔═════ஜ۩۞۩ஜ════╗║अनंत अखंड अमर अविनाशी║कष्ट हरण है║शंभु कैलाशी║╚═════ஜ۩۞۩ஜ════╝╚═════════════════❍⊱❁ """)
+print(f"""╔═════❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱════❍⊱❁۪۪║┏━━━━━━➣║┣⪼ ᴏᴡɴᴇʀ :- @WereWolfDemon ║┣⪼ ᴘᴀʀᴛ ᴏғ :- https://t.me/SweetToxicHeroku_CC║┗━━━━━━➣║╔═════ஜ۩۞۩ஜ════╗║अनंत अखंड अमर अविनाशी║कष्ट हरण है║शंभु कैलाशी║╚═════ஜ۩۞۩ஜ════╝╚═════════════════❍⊱❁ """)
 app.run()
