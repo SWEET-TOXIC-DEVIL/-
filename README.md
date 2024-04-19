@@ -1,4 +1,3 @@
-<img src="https://telegra.ph/file/536deba0c26d0d2e41d55.jpg">
 <p align="center">
 <b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦</b>
 </p>
