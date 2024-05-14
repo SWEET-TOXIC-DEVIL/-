@@ -48,7 +48,12 @@ async def start(_, msg):
           InlineKeyboardButton("𝖲𝖴𝖬𝖬𝖮𝖭 𝖬𝖤", url=f"https://t.me/SweetToxicCopyRightSaverBot?startgroup=true")
         ],
         [
-          InlineKeyboardButton("𝖴𝖯𝖣𝖠𝖳𝖤", url=f"https://t.me/SweetToxicHeroku_CC")
+          InlineKeyboardButton("𝖴𝖯𝖣𝖠𝖳𝖤", url=f"https://t.me/SweetToxicHeroku_CC"),
+
+          InlineKeyboardButton("SUPPORT*", url=f"https://t.me/SweetToxicSupport")
+
+        ],[
+          InlineKeyboardButton("OWNER*", url=f"https://t.me/WereWolfDemon")
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
