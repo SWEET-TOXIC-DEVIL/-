@@ -49,7 +49,8 @@ async def start(_, msg):
         ],
         [
           InlineKeyboardButton("𝖴𝖯𝖣𝖠𝖳𝖤", url=f"https://t.me/SweetToxicHeroku_CC")
-        ]]
+        ]
+        ]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
